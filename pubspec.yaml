@@ -1,0 +1,285 @@
+name: kronosss
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_api_availability: ^3.0.1
+  firebase_auth:
+  firebase_core:
+  google_sign_in:
+  firebase_messaging:
+  http: 
+  shared_preferences: 
+  intl:
+  #flutter_styled_toast: ^2.0.0 
+  meta:
+  webview_flutter: ^2.1.1
+  carousel_slider:
+  cached_network_image: ^3.2.0
+  flutter_rating_bar: ^4.0.0
+  flutter_social_textfield: ^0.1.0
+  scroll_to_index: any
+  qr_code_scanner: ^1.0.0
+  qr_flutter:
+  image_picker: ^0.8.4+4
+  image_cropper: ^1.4.1
+  flutter_staggered_grid_view: ^0.4.0
+  path_provider: ^2.0.8
+  stripe_payment: ^1.1.4 #
+  flutter_paypal: ^0.0.8
+  flutter_swipe_action_cell:
+  bubble: ^1.2.1
+  file_picker: ^4.3.3
+  audioplayers: ^0.20.1
+  native_video_view: ^1.0.5
+  chewie: ^1.0.0
+  video_player: ^2.2.19 
+  share_plus: ^4.0.10
+  path: ^1.8.0
+  video_editor: ^1.2.3
+  badges: ^2.0.2
+  open_mail_app: ^0.4.5
+  provider: ^6.0.0
+  downloads_path_provider_28: ^0.1.2
+  permission_handler: ^9.2.0
+  dio: ^4.0.4
+  insta_like_button: ^0.1.1
+  table_calendar: ^3.0.6
+  sliding_up_panel: ^2.0.0+1
+  flutter_local_notifications: ^9.4.0
+  rxdart: ^0.27.3
+  change_app_package_name: ^0.1.2
+  image_editor_plus: ^0.1.3
+  flutter_typeahead: ^3.2.5
+  flutter_image_compress: ^1.1.0
+  google_maps_flutter: ^2.1.5
+  linear_step_indicator: ^1.0.0+3
+  flutter_sound:  ^9.2.13
+  just_waveform: ^0.0.3
+  flutter_luban: ^0.1.13
+  receive_sharing_intent: ^1.4.5
+  video_compress: ^3.1.0
+  flutter_cache_manager: ^3.3.0
+  aescryptojs: ^1.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+      - family: Avenir
+        fonts:
+          - asset: assets/fonts/Avenir.otf
+            style: normal
+      - family: Avenir-Book
+        fonts:
+          - asset: assets/fonts/avenir-book.otf
+            style: normal
+      - family: Avenir-Heavy
+        fonts:
+          - asset: assets/fonts/avenir-heavy.otf
+            style: normal
+      - family: Sans
+        fonts:
+          - asset: assets/fonts/pt_sans.ttf
+            style: normal
+      - family: Sans-bold
+        fonts:
+          - asset: assets/fonts/pt_sans_bold.ttf
+            style: normal
+            
+
+  assets:
+    #- assets
+    - assets/
+    - assets/image_background.jpg
+    - assets/no_available_banner.png
+    - assets/ic_notif1.png
+    - assets/ic_notif2.png
+    - assets/ic_front_audio.png
+    - assets/ic_front_audio.png
+    - assets/ic_bc.jpeg
+    #- assets/icons
+    - assets/icons/kronos_original.png
+    - assets/icons/kronos_original2.png
+    - assets/icons/ic_circle_create_account.png
+    - assets/icons/logo_google.png
+    - assets/icons/nick.png
+    - assets/icons/key.png
+    - assets/icons/ok.png
+    - assets/icons/enviar.png
+    - assets/icons/cancel.png
+    - assets/icons/checked.png
+    - assets/icons/ic_menu_1.png
+    - assets/icons/ic_menu_2.png
+    - assets/icons/ic_menu_3.png
+    - assets/icons/ic_menu_4.png
+    - assets/icons/ic_wallet.png
+    - assets/icons/ic_search.png
+    - assets/icons/ic_dracma.png
+    - assets/icons/ic_record_voice.png
+    - assets/icons/ic_zoom_in.png
+    - assets/icons/ic_case.png
+    - assets/icons/ic_apple.png
+    - assets/icons/ic_block.png
+    - assets/icons/ic_condiciones.png
+    - assets/icons/ic_notification.png
+    - assets/icons/ic_privacidad.png
+    - assets/icons/ic_politica.png
+    - assets/icons/ic_ver.png
+    - assets/icons/ic_ref.png
+    - assets/icons/ic_emp.png
+    - assets/icons/ic_web.png
+    - assets/icons/ic_text.png 
+    - assets/icons/ic_green_check.png 
+    - assets/icons/ic_contact_bottom.png 
+    - assets/icons/ic_green_circle.png 
+    - assets/icons/ic_red_circle.png 
+    - assets/icons/ic_info.png 
+    - assets/icons/ic_unfollow.png
+    - assets/icons/ic_porta.png
+    - assets/icons/ic_rayita.png
+    - assets/icons/ic_pencil.png
+    - assets/icons/ic_backarrow.png
+    - assets/icons/keyII.png
+    - assets/icons/ic_camera.png
+    - assets/icons/ic_file.png
+    - assets/icons/ic_nextarrow.png
+    - assets/icons/ic_info2.png
+    - assets/icons/ic_coins.png
+    - assets/icons/ic_voice.png
+    - assets/icons/cancel2.png
+    - assets/icons/ic_gallery.png
+    - assets/icons/ic_lock.png
+    - assets/icons/ic_null_circle.png
+    - assets/icons/ic_look.png
+    - assets/icons/ic_data_wallet.png
+    - assets/icons/ic_audioc.png
+    - assets/icons/ic_glossas.png
+    - assets/icons/ic_glossear.png
+    - assets/icons/ic_voice_off.png
+    - assets/icons/ic_follow.png
+    
+    #- assets/icons/ic_menu_5.png
+    - assets/icons/resource_email.png
+    - assets/icons/ic_settings.png
+    - assets/icons/ic_coin_buy.png
+    - assets/icons/ic_coin_remove.png
+    - assets/icons/ic_coin_send.png
+    - assets/icons/ic_back.png
+    - assets/icons/ic_follow3.png
+    - assets/icons/ic_follow4.png
+    - assets/icons/ic_web2.png
+    # carga de imagenes
+    - assets/no_available.png
+    - assets/loading.gif
+    - assets/loading2.gif
+    - assets/icons/profile.png
+    # iconos del reels
+    - assets/reels/ic_ads.png
+    - assets/reels/ic_comments.png
+    - assets/reels/ic_likes.png
+    - assets/reels/ic_like_full.png
+    - assets/reels/ic_saved.png
+    - assets/reels/ic_saved_full.png
+    - assets/reels/ic_shared.png
+    - assets/reels/ic_tickets.png
+    - assets/reels/ic_valoration.png
+    - assets/reels/ic_settings.png
+    - assets/reels/ic_chat.png
+    - assets/reels/ic_descarga.png
+    - assets/reels/ic_donate1.png
+    - assets/reels/ic_valoration_full.png
+    - assets/reels/ic_comments_full.png
+    - assets/reels/ic_hashtag.png
+    - assets/reels/ic_users.png
+    - assets/reels/ic_users2.png
+    - assets/reels/ic_users3.png
+    - assets/reels/ic_users4.png
+    - assets/reels/ic_hide.png
+    - assets/reels/ic_disabled.png
+    - assets/reels/ic_calendar.png
+    - assets/reels/ic_block.png
+    - assets/reels/ic_silent.png
+    - assets/reels/ic_denuncia.png
+    
+    # rating
+    - assets/r0.png
+    - assets/r2.png
+    - assets/r4.png
+    # creations
+    - assets/creations/g1.png
+    - assets/creations/g2.png
+    - assets/creations/g3.png
+    - assets/creations/g4.png
+    - assets/creations/g5.png
+    - assets/creations/g6.png
+    - assets/creations/g7.png
+    - assets/creations/ic_options.png
+    - assets/creations/ic_text.png
+    - assets/creations/ic_info3.png
+    - assets/creations/ic_eraser.png
+    - assets/creations/ic_edit2.png
+    - assets/creations/ic_coin1.png
+    - assets/creations/ic_coin2.png
+    - assets/creations/ic_coin3.png
+    - assets/creations/ic_edit.png
+    # payment icons
+    - assets/payments/ic_credit_card.png
+    - assets/payments/ic_dracma.png
+    - assets/payments/ic_gpay.png
+    - assets/payments/ic_paypal.png
+    - assets/payments/ic_qr.png
+    - assets/payments/ic_qr2.png
+    - assets/payments/ic_qr3.png
+    - assets/payments/im_mastercard.png
+    - assets/payments/im_visa.png
+    - assets/payments/ic_bitcoin.png
+    - assets/payments/ic_bizum.png
+    - assets/payments/ic_cashapp.png
+    - assets/payments/ic_ethereum.png
+    - assets/payments/ic_patreon.png
+    - assets/payments/ic_tether.png
+    - assets/payments/ic_venmo.png
+    - assets/payments/ic_kronos.png
+    - assets/payments/ic_activity.png
+    - assets/payments/email.png
+    - assets/payments/ic_gamification.png
+    - assets/payments/ic_bag.png
+    - assets/payments/ic_ads.png
+    - assets/payments/ic_donate_profile.png
+    - assets/payments/ic_referreds.png
+    - assets/payments/ic_blockchain.png
+    
+    # wallets
+    - assets/wallets/ic_binance.png
+    - assets/wallets/ic_coinbase.png
+    - assets/wallets/ic_match.png
+    - assets/wallets/ic_metamask.png
+    - assets/wallets/ic_opera.png
+    - assets/wallets/ic_safe_pal.png
+    - assets/wallets/ic_trust.png
+    - assets/wallets/ic_wallet_connect.png
+    - assets/wallets/ic_ethereum.png
+    - assets/wallets/ic_polygon.png
+    - assets/wallets/ic_solana.png
+
